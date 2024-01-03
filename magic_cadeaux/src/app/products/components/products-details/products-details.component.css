@@ -1,0 +1,23 @@
+  :root {
+    --clr-1: #052b2f;
+    --clr-2: #073438;
+    --clr-3: #0e4b50;
+    --clr-4: #2d8f85;
+    --clr-5: #637c54;
+  }
+  img{
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+  }
+  
+  body{
+    display: grid;
+    place-content: center;
+    margin: 0;
+  }
+  ul li {
+    color: black;
+  }
+  
+  

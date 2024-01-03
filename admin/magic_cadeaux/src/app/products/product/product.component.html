@@ -1,0 +1,29 @@
+<div class="cartBox">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th></th>
+        <th>image</th>
+        <th>Name</th>
+        <th style="width: 25%">category</th>
+        <th>price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img
+            src="{{ data.image }}"
+            alt=""
+            style="width: 100px; height: 100px"
+          />
+        </td>
+        <td>{{ data.title }}</td>
+        <td>
+          {{ data.category }}
+        </td>
+        <td>{{ data.price }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

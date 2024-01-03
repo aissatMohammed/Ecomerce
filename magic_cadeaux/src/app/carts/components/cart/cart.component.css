@@ -1,0 +1,38 @@
+.tbody{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+
+}
+.cartBox{ 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 50px 0;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+input{
+    text-align: center;
+}
+.quantity{
+    display: flex;
+    justify-content: space-between;
+}
+.headCar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+span:hover{
+    background-color: #e67779;
+    color: #fff;
+    box-shadow: 0px 5px 10px rgba(black,0.3 );
+}
